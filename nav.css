@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar img{
+    margin-left: 10%;
+}
+.collapse ul{
+    margin-right: 10% !important;
+}
+.navbar-nav a{
+    font-family:Montserrat;
+}
+.dropdown-menu a{
+    color: #7c7c7d;
+}
+.dropdown-menu{
+    border: none;
+}

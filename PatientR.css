@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("./Images/regbg.jpg");
+    /* height: 670px; */
+    min-height: 670px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* main row it is taking margin from left and right it is reset to zero */
+.mybg{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.card{
+    background-color: #EAD5C0;
+    opacity: 0.9;
+}
+
+/*i tag  */
+/* .form-group{
+    position: relative;
+}
+.form-group i{
+    position: absolute ;
+    top: 12px;
+    right:10px;
+    visibility: hidden;
+}
+.form-group small{
+    position: absolute ;
+    top: 38px;
+    left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    visibility: hidden;
+}
+.form-group.success input{
+    border-color: #2ecc71;
+}
+.form-group.error input{
+    border-color: #e74c3c ;
+}
+
+.form-group.success i.fa-check-circle{
+    color:#2ecc71;
+    visibility: visible;
+}
+.form-group.error i.fa-exclamation-circle{
+    color:#e74c3c;
+    visibility: visible;
+}
+.form-group.error small{
+    color:#e74c3c;
+    visibility: visible;
+} */
+.form-control:focus{
+    border-color: rgb(234, 213, 192);
+    box-shadow: 0 0 0 .2rem rgba(204, 121, 37, 0.25) !important;
+}
